@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import path from 'path'
 
 export default defineConfig({
-  base: 'https://ikarus-consultora.github.io/historial-clinico/',
+  base: '/historial-clinico/',
   plugins: [react()],
   resolve: {
     alias: {
