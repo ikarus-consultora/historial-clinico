@@ -15,7 +15,7 @@ export default function Layout({ children }) {
       <nav className="bg-primary text-primary-foreground p-4">
         <div className="container mx-auto flex justify-between items-center">
           <Link to="/" className="text-2xl font-bold">
-          <img src="/public/logo1 (2).jpg" alt="Logo" className="h-12 w-auto" />
+          <img src="" alt="Logo" className="h-12 w-auto" />
           </Link>
           {user ? (
             <div className="relative">
